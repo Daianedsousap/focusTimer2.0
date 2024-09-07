@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer 2.0</title>
+    <meta name="description" content="Temporizador estilo pomodoro">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script type="module" src="src/main.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <div id="leftSide">
+            <section id="timer">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </section>
+
+            <section id="controls" class="flex">
+                <button class="ph ph-play-circle"></button>
+                <button class="ph ph-stop-circle"></button>
+                <button class="ph ph-plus-circle"></button>
+                <button class="ph ph-minus-circle"></button>
+            </section>
+        </div>
+
+        <div id="rightSide">
+            <section id="icons">
+
+                <div id="firstRow .secondary">
+                    <button class="ph ph-tree secondary-color"></button>
+                    <button class="ph ph-cloud-rain secondary-color"></button>
+                </div>
+
+                 <div id="secondRow .secondary">
+                    <button class="ph ph-storefront secondary-color"></button>
+                    <button class="ph ph-fire secondary-color"></button>
+                 </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>
